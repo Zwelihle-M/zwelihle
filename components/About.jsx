@@ -8,7 +8,7 @@ const About = () => {
       id="about"
       className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-center mt-24"
     >
-      <h1 className="text-6xl font-medium text-transparent bg-clip-text bg-gradient-to-bl from-fuchsia-800 to-violet-600">
+      <h1 className="text-6xl text-transparent bg-clip-text bg-gradient-to-bl from-fuchsia-800 to-violet-600">
         About
       </h1>
 
@@ -43,7 +43,7 @@ const About = () => {
       </div>
 
       <Link href={"/zwelihle"}>
-        <button className="relative inline-flex items-center justify-center my-12 p-4 px-5 py-3 overflow-hidden transition duration-300 ease-out rounded-full shadow-sm group">
+        <button className="relative inline-flex items-center justify-center my-12 p-4 px-5 py-3 overflow-hidden transition duration-300 ease-in-out rounded-full shadow-lg group hover:scale-105">
           <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-fuchsia-600 via-violet-600 to-pink-700"></span>
           <span className="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-fuchsia-800 rounded-full opacity-30 group-hover:rotate-90 ease"></span>
           <span className="relative text-white">Read More</span>

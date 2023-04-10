@@ -8,15 +8,19 @@ const XboxEliteController = () => {
     const { scene } = useGLTF("/xbox_elite_controller.glb");
     return <primitive object={scene} {...props} />;
   }
+
+
+  
   return (
     <Canvas dpr={[1, 2]} camera={{ fov: 45 }} style={{ position: "relative" }}
     shadows
     gl={{preserveDrawingBuffer: true}}
    
-    frameloop="demand">
+    frameloop="demand"
+    >
       
       <OrbitControls enableZoom={false} enablePan={false} 
-       autoRotate={true}/>
+       autoRotate={true} touchEnabled={true}/>
       <ambientLight intensity={1} />
       <hemisphereLight intensity={0.1} />
       <pointLight
@@ -38,6 +42,7 @@ const XboxEliteController = () => {
         <Preload all/>
       </Suspense>
     </Canvas>
+
   );
 };
 
