@@ -27,7 +27,7 @@ const zwelihle = () => {
           </div>
         </Link>
       </div>
-      <h1 className="text-5xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-800 to-violet-600">
+      <h1 className=" text-3xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-800 to-violet-600">
         Zwelihle Masango
       </h1>
       <div className="my-8 px-8">

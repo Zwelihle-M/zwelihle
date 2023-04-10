@@ -38,7 +38,7 @@ const XboxEliteController = () => {
         shadow-mapSize={1024}
       />
       <Suspense fallback={<CanvasLoader />}>
-        <Model scale={0.15} />
+        <Model scale={0.16} />
         <Preload all/>
       </Suspense>
     </Canvas>

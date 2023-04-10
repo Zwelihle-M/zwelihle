@@ -50,11 +50,11 @@ const Skills = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1.5 }}
     >
-      <h3 className=" absolute top-20 text-6xl">
+      <h1 className=" absolute top-20 text-6xl">
         <span className="text-transparent bg-clip-text bg-gradient-to-bl from-fuchsia-800 to-violet-600">
           Skills
         </span>
-      </h3>
+      </h1>
       {/* <h4 className="absolute top-30">My skills and tools</h4> */}
 
       <motion.div className="grid grid-cols-4 gap-5 pt-24 ">
