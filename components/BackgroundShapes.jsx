@@ -15,7 +15,7 @@ const BackgroundShapes = () => {
           borderRadius: ["20%", "20%", "50%", "80%", "20%"],
         }}
         transition={{
-          duration:5,
+          duration:4,
           ease: "easeInOut",
         }}
         className="relative flex justify-center items-center"
@@ -36,7 +36,7 @@ const BackgroundShapes = () => {
           borderRadius: ["20%", "20%", "50%", "80%", "20%"],
         }}
         transition={{
-          duration: 5,
+          duration: 4,
           ease: "easeInOut",
         }}
         className="relative flex justify-center items-center"
